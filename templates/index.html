@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', path='/css/bootstrap-icons.css') }}">
     <link rel="icon" href="{{ url_for('static', path='/img/favicon1.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/fontello.css') }}">
+                                    <!--  ../static/css/fontello.css  -->
     <title>Brands to Life</title>
 </head>
 
@@ -20,16 +22,22 @@
             </div>
             <div class="col-xl-9">
                 <h1 class="text-white text-xl-start text-center mb-5">МАРКЕТИНГОВОЕ АГЕНТСТВО ПОЛНОГО ЦИКЛА</h1>
-                <div class="col-xl-6 text-xl-start text-center">
+                <div class="row">
+
+                <div class="col-xl-6 col-9">
                     <h4 class="color2">Комплексный подход к маркетингу основанный на проверенных научных
                         разработках.</h4>
+                </div>
+                <div class="col-xl-6 col-3 text-end align-self-end">
+                    <a href="#contacts" class="btn btn-outline-light btn-lg mb-1"><i class="icon-down-open"></i>Напишите нам</a>
+                </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<section class="v-orderlist">
+<section class="orderlist">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -48,7 +56,7 @@
                              aria-labelledby="heading_1" data-bs-parent="#accordion_1">
                             <div class="accordion-body">
                                 Исследования помогают понять, <b>что еще</b> Ваш бренд <b>может продать</b> клиентам и
-                                как Вашему бренду <b>стать No1</b> для потребителей
+                                как Вашему бренду <b>стать №1</b> для потребителей
                             </div>
                         </div>
                     </div>
@@ -154,30 +162,50 @@
                             </div>
                         </div>
                     </div>
-                    <!--Конец последнего элемента в первом аккардионе-->
+                    <!--Конец последнего элемента в первом аккордеоне-->
                 </div>
-                <!-- Конец 1 аккордиона -->
+                <!-- Конец 1 аккордеона -->
             </div>
         </div>
     </div>
 </section>
-
-<footer>
+<section id="contacts">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <p class="text-white">новое развитие ваших продаж </p>
-                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-telegram"
-                                                                                   aria-label="telegram"></i></a>
-                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-instagram"
-                                                                                   aria-label="instagram"></i></a>
-                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-whatsapp"
-                                                                                   aria-label="whatsapp"></i></a>
-                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-facebook"
-                                                                                   aria-label="facebook"></i></a>
+                <h1 class="color1 mb-5">Наши контакты</h1>
+            </div>
+            <div class="col-xl-6">
+                <h4 class="color1">Почта:</h4>
+                <p>123456@pochta.moya</p>
+                <h4 class="color1">Телефон:</h4>
+                <p>123456789</p>
+            </div>
+            <div class="col-xl-6">
+                <a href="#" target="_blank" class="btn btn-outline-danger btn-lg mb-1"><i class="icon-paper-plane"></i>Telegram</a>
+                <a href="#" target="_blank" class="btn btn-outline-danger btn-lg mb-1"><i class="icon-vkontakte"></i>Вконтакте</a>
+                <br>
+                <a href="#" target="_blank" class="btn btn-outline-danger btn-lg mb-1"><i class="icon-instagram"></i>Запрещённая в РФ организация</a>
             </div>
         </div>
     </div>
+</section>
+<footer>
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-12 text-center">-->
+<!--                <p class="text-white">новое развитие ваших продаж </p>-->
+<!--                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-telegram"-->
+<!--                                                                                   aria-label="telegram"></i></a>-->
+<!--                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-instagram"-->
+<!--                                                                                   aria-label="instagram"></i></a>-->
+<!--                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-whatsapp"-->
+<!--                                                                                   aria-label="whatsapp"></i></a>-->
+<!--                <a href="#" target="_blank" class="btn v-btn btn-outline-light"><i class="bi bi-facebook"-->
+<!--                                                                                   aria-label="facebook"></i></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 </footer>
 </body>
 
