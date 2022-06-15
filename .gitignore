@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.idea/
+test_main.http
+
 # C extensions
 *.so
 
