@@ -1,6 +1,6 @@
 :root {
     --color1: #5d0303;
-    --color2: #9a7c61;
+    --color2: #a79164;
 }
 
 * {
@@ -8,10 +8,13 @@
     padding: 0;
 }
 
+section {
+    padding: 100px;
+}
 
 /*Header, Section*/
-header, section {
-    padding: 100px 0;
+header{
+    padding: 80px 0 20px 0;
 }
 
 header, footer {
@@ -20,7 +23,7 @@ header, footer {
 }
 
 .v_logo {
-    margin-top: -30%;
+    margin-top: -20%;
     position: inherit;
 }
 
