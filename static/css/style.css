@@ -8,13 +8,13 @@
     padding: 0;
 }
 
-section {
-    padding: 100px;
+/*Header + section settings*/
+header {
+    padding: 80px 0 20px 0;
 }
 
-/*Header, Section*/
-header{
-    padding: 80px 0 20px 0;
+section {
+    padding: 100px 0;
 }
 
 header, footer {
@@ -27,23 +27,69 @@ header, footer {
     position: inherit;
 }
 
+/*Our method*/
+#method h3 {
+    color: var(--color1);
+    padding: 50px;
+    border: 10px groove var(--color1);
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    /*background-color: var(--color2);*/
+}
+
 /*Order List*/
 .accordion-button:not(.collapsed) {
     color: var(--bs-white);
     background-color: var(--color1);
-}
-.accordion-button:not(.collapsed)::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns= 'http://www.w3.org/2000/svg' viewBox= '0 0 16 16' fill= 'white' %3e%3cpath fill-rule= 'evenodd' d= 'M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z' /%3e%3c/svg%3e");
+    font-size: x-large;
 }
 
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns= 'http://www.w3.org/2000/svg' viewBox= '0 0 14 14' fill= 'white' %3e%3cpath fill-rule= 'evenodd' d= 'M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z' /%3e%3c/svg%3e");
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns= 'http://www.w3.org/2000/svg' viewBox= '0 0 14 14' fill= '%23a79164' %3e%3cpath fill-rule= 'evenodd' d= 'M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z' /%3e%3c/svg%3e");
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 1rem .25rem var(--color1)
+}
+
+/*Делаем все края закруглёнными всегда EVER*/
+.accordion-item:first-of-type, .accordion-item:first-of-type .accordion-button, .accordion-item:last-of-type,
+.accordion-item:last-of-type .accordion-button.collapsed, .accordion-item:last-of-type .accordion-collapse,
+.accordion-button.collapsed, .accordion-button:not(.collapsed) {
+    border-radius: 50px;
+}
+
+.accordion-button.collapsed {
+    color: var(--color2);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.accordion-item {
+    border: 0;
+}
+
+.v_textlogo {
+    width: 40px;
+}
 
 /*Footer*/
 footer {
     padding: 30px 0;
 }
 
-.v-btn:hover {
+.btn-outline-danger {
     color: var(--color1);
+    border-color: var(--color1)
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: var(--color1);
+    border-color: var(--color1);
 }
 
 /* Цвет */
