@@ -36,7 +36,6 @@ header {
     font-size: 60pt;
 }
 .v_name {
-    font-family: 'Jost', sans-serif;
     margin-top: 30px;
 }
 
@@ -65,7 +64,7 @@ header {
 }
 
 .accordion-button:focus {
-    box-shadow: 0 0 1rem .25rem var(--color1)
+    box-shadow: 0 0 1rem .25rem #e0b1b1;
 }
 
 /*Делаем все края закруглёнными всегда EVER*/
@@ -114,4 +113,10 @@ footer {
 
 .color2 {
     color: var(--color2);
+}
+
+/* Шрифт */
+
+.font_jost {
+    font-family: 'Jost', sans-serif;
 }
