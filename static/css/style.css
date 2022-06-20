@@ -9,22 +9,35 @@
 }
 
 /*Header + section settings*/
-header {
-    padding: 80px 0 20px 0;
-}
 
 section {
     padding: 100px 0;
 }
 
-header, footer {
+header {
+    padding: 0 0 20px 0;
     background-color: var(--color1);
-    background-size: contain;
+}
+
+.v_bgimg {
+    background: var(--color1) url('../img/0175169087937f8fb5e352959c504bb3-l.jpg') no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0 50px 0;
+
 }
 
 .v_logo {
-    margin-top: -20%;
-    position: inherit;
+    width: 200px;
+}
+.v_btl {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 60pt;
+}
+.v_name {
+    font-family: 'Jost', sans-serif;
+    margin-top: 30px;
 }
 
 /*Our method*/
@@ -72,13 +85,15 @@ header, footer {
     border: 0;
 }
 
-.v_textlogo {
+.v_textico {
     width: 40px;
 }
 
 /*Footer*/
 footer {
     padding: 30px 0;
+    background-color: var(--color1);
+    background-size: contain;
 }
 
 .btn-outline-danger {
