@@ -8,7 +8,6 @@
     padding: 0;
 }
 
-/*Header + section settings*/
 
 section {
     padding: 100px 0;
@@ -21,7 +20,6 @@ header {
 
 .v_bgimg {
     background: var(--color1) url('../img/0175169087937f8fb5e352959c504bb3-l.jpg') no-repeat;
-    /*background-attachment: fixed;*/
     background-size: cover;
     background-position: center center;
     padding: 200px 0 50px 0;
@@ -39,16 +37,13 @@ header {
     margin-top: 30px;
 }
 
-/*Our method*/
 #method h3 {
     color: var(--color1);
     padding: 50px;
     border: 10px groove var(--color1);
     border-radius: 2em 1em 4em / 0.5em 3em;
-    /*background-color: var(--color2);*/
 }
 
-/*Order List*/
 .accordion-button:not(.collapsed) {
     color: var(--bs-white);
     background-color: var(--color1);
@@ -67,7 +62,6 @@ header {
     box-shadow: 0 0 1rem .25rem #e0b1b1;
 }
 
-/*Делаем все края закруглёнными всегда EVER*/
 .accordion-item:first-of-type, .accordion-item:first-of-type .accordion-button, .accordion-item:last-of-type,
 .accordion-item:last-of-type .accordion-button.collapsed, .accordion-item:last-of-type .accordion-collapse,
 .accordion-button.collapsed, .accordion-button:not(.collapsed) {
@@ -88,7 +82,6 @@ header {
     width: 40px;
 }
 
-/*Footer*/
 footer {
     padding: 30px 0;
     background-color: var(--color1);
@@ -106,7 +99,6 @@ footer {
     border-color: var(--color1);
 }
 
-/* Цвет */
 .color1 {
     color: var(--color1);
 }
@@ -115,7 +107,6 @@ footer {
     color: var(--color2);
 }
 
-/* Шрифт */
 
 .font_jost {
     font-family: 'Jost', sans-serif;
